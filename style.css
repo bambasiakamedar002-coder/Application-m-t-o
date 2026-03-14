@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./pero-kalimero-9BJRGlqoIUk-unsplash.jpg);
+    background-size: cover;
+    
+}
+section{
+    border-radius: 15px;
+}
+.top{
+        background:linear-gradient(rgb(3, 43, 173),rgb(76, 118, 255),rgba(58, 94, 141, 0.007)) ;
+        border-radius: 15px  15px 0 0;
+
+    }
+.user-input input{
+    height: 36px;
+    width: 310px;
+    border-radius: 20px;
+    border: 0;
+    filter: blur(0.4px);
+    font-size: 16px;
+}
+.user-input button{
+    padding: 8px  25px;
+    right: 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(57, 139, 247);
+    border: 2px solid  rgb(57, 139, 247);
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    filter: blur(0.4px);
+} 
+.user-input button:active{
+    background-color: white;
+    color: rgb(57, 139, 247);
+}
+.user-input{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px 10px 10px;
+    position: relative;
+
+} 
+
+.ville{
+    margin-top: 25px;
+    padding: 0 20px;
+    color: white;
+}
+.ville h2{
+    font-size: 30px;
+}
+.ville p{
+    font-size: 15px;
+}
+.tem h2{
+    font-size: 60px;
+}
+ .tem{
+    /* margin-left: 240px; */
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 160px;
+    justify-content: space-between;
+} 
+.tem h2{
+    color: white;
+    font-size: 25px;
+}
+.tem div{
+    width: 50px;
+   
+}
+i{
+    font-size: 28px;
+}
+.bottom p{
+    font-size: 16px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(37, 93, 165, 0.9);
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+}
+.humidite,.vent,.ressenti{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(20, 63, 119,0.9);
+    padding: 6px  20px;
+    border-radius: 5px;
+}
+.vent h3{
+    font-size: 15px;
+}
+.vent span{
+    font-size: 15px;
+}
+.vent{
+    color: white;
+}
+.eau{
+    color: rgb(0, 195, 255);
+    filter: blur(0.4px);
+}
+.humidite p,h3{
+    color: white;
+}
+.thermo{
+    color: rgb(1, 132, 255);
+}
+.ressenti p,h3{
+    color: white;
+} 
