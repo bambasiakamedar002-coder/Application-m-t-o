@@ -16,22 +16,32 @@ body{
 }
 section{
     border-radius: 15px;
+    box-shadow:  0 1px 1px rgba(0, 0, 0, 1);
 }
 .top{
         background:linear-gradient(rgb(3, 43, 173),rgb(76, 118, 255),rgba(58, 94, 141, 0.007)) ;
         border-radius: 15px  15px 0 0;
 
     }
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: blue;
+}
 .user-input input{
     height: 36px;
     width: 310px;
     border-radius: 20px;
     border: 0;
-    filter: blur(0.4px);
     font-size: 16px;
+    padding-left: 10px;
+    box-shadow:  0 1px 1px rgba(0, 0, 0, 1);
+}
+.user-input input:focus{
+    outline: 0;
 }
 .user-input button{
-    padding: 8px  25px;
+    padding: 6px  25px;
     right: 20px;
     border-radius: 20px;
     font-size: 13px;
@@ -41,8 +51,12 @@ section{
     color: white;
     position: absolute;
     cursor: pointer;
-    filter: blur(0.4px);
+    box-shadow:  0 1px 1px rgba(0, 0, 0, 1);
 } 
+.user-input button:hover{
+    background-color: blue;
+    border: 2px solid  blue;
+}
 .user-input button:active{
     background-color: white;
     color: rgb(57, 139, 247);
@@ -70,7 +84,6 @@ section{
     font-size: 60px;
 }
  .tem{
-    /* margin-left: 240px; */
     margin-left: 200px;
     display: flex;
     align-items: center;
@@ -98,6 +111,7 @@ i{
     background: rgba(37, 93, 165, 0.9);
     padding: 15px;
     border-radius: 0 0 15px 15px;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 1);
 }
 .humidite,.vent,.ressenti{
     display: flex;
@@ -119,7 +133,6 @@ i{
 }
 .eau{
     color: rgb(0, 195, 255);
-    filter: blur(0.4px);
 }
 .humidite p,h3{
     color: white;
@@ -129,4 +142,7 @@ i{
 }
 .ressenti p,h3{
     color: white;
-} 
+}
+.humidite,.vent,.ressenti{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+}
